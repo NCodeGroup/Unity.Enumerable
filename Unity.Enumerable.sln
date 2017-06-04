@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Enumerable", "Unity.Enumerable\Unity.Enumerable.csproj", "{BC0EB37B-7D73-416F-BD32-AB908529A3A9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C2EAF6F-13D0-46B1-8FEA-6C07C6997A6E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		COPYRIGHT.txt = COPYRIGHT.txt
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Enumerable.Tests", "Unity.Enumerable.Tests\Unity.Enumerable.Tests.csproj", "{8AEB8382-2963-43EA-9287-E4E52AB513A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,10 @@ Global
 		{BC0EB37B-7D73-416F-BD32-AB908529A3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC0EB37B-7D73-416F-BD32-AB908529A3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC0EB37B-7D73-416F-BD32-AB908529A3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AEB8382-2963-43EA-9287-E4E52AB513A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AEB8382-2963-43EA-9287-E4E52AB513A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AEB8382-2963-43EA-9287-E4E52AB513A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AEB8382-2963-43EA-9287-E4E52AB513A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

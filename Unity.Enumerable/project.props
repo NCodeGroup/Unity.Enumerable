@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+
+    <Description>This library provides an extension to the Unity Container from Microsoft to add support for resolving multiple objects by using IEnumerable&lt;T&gt;.</Description>
+  </PropertyGroup>
+
+</Project>
