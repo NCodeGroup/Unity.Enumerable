@@ -5,6 +5,8 @@
     <Version>1.0.0</Version>
 
     <Description>This library provides an extension to the Unity Container from Microsoft to add support for resolving multiple objects by using IEnumerable&lt;T&gt;.</Description>
+
+    <PackageTags>Unity;IEnumerable;Resolve;ResolveAll;multiple</PackageTags>
   </PropertyGroup>
 
 </Project>
