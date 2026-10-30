@@ -1,4 +1,15 @@
-﻿# Overview
+﻿# Deprecated
+
+> **This library is retired.** It added `IEnumerable<T>` resolution to the Unity container, and that is now built in.
+>
+> - Recent Unity releases resolve `IEnumerable<T>` and `Lazy<T>` themselves, so the `EnumerableExtension` is no longer needed.
+> - `Microsoft.Extensions.DependencyInjection`, the container .NET itself uses, resolves every registration of a service as `IEnumerable<T>` with no extension.
+>
+> It was written for the Unity container of 2017 and has not changed since.
+>
+> The NuGet package is deprecated (`Unity.Enumerable`) and this repository is archived. The code stays available as it is.
+
+# Overview
 > PM> Install-Package Unity.Enumerable
 
 This library provides an extension to the [Unity Container] from Microsoft to add support for resolving multiple objects by using `IEnumerable<T>`.
